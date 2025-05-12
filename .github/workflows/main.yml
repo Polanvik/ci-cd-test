@@ -18,7 +18,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirenmets.txt # If there is a file "requirenment.txt"
+          pip install -r requirenments.txt # If there is a file "requirenments.txt"
 
       - name:
         run: |
