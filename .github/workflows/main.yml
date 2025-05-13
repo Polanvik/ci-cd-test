@@ -31,4 +31,4 @@ jobs:
               run: flake8 .
 
             - name: Checlk code formatting with black
-              run: black --check
+              run: black --check .
